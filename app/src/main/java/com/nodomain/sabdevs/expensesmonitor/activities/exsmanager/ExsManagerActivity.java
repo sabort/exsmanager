@@ -54,8 +54,6 @@ public class ExsManagerActivity extends BaseSupportActivity implements Navigatio
     protected void onCreate(Bundle savedInstanceState) {
         super.onCreate(savedInstanceState);
 
-        //this.deleteDatabase("EMDatabase.db");
-
         setContentView(R.layout.activity_exs_manager);
         Toolbar toolbar = (Toolbar) findViewById(R.id.toolbar);
         setToolbar();
