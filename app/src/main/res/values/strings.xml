@@ -1,0 +1,67 @@
+<!--
+  ~ Copyright (c) 2017 SAbort
+  ~
+  ~ Licensed under the Apache License, Version 2.0 (the "License");
+  ~ you may not use this file except in compliance with the License.
+  ~ You may obtain a copy of the License at
+  ~
+  ~    http://www.apache.org/licenses/LICENSE-2.0
+  ~
+  ~ Unless required by applicable law or agreed to in writing, software
+  ~ distributed under the License is distributed on an "AS IS" BASIS,
+  ~ WITHOUT WARRANTIES OR CONDITIONS OF ANY KIND, either express or implied.
+  ~ See the License for the specific language governing permissions and
+  ~ limitations under the License.
+  -->
+
+<resources>
+    <string name="app_name">Exs Monitor</string>
+    <string name="add">Add</string>
+    <string name="archive">Archive</string>
+    <string name="cancel">Cancel</string>
+    <string name="category_prompt">Choose a category</string>
+    <string name="drawer_open">Open navigation drawer</string>
+    <string name="drawer_close">Close navigation drawer</string>
+    <string name="save">Save</string>
+    <string name="action_about">About</string>
+    <string name="title_activity_edit_categories">Edit categories</string>
+    <string name="title_activity_history">History</string>
+    <string name="title_activity_about">About</string>
+    <string name="to_remove">Remove </string>
+    <string name="categories">Categories</string>
+    <string name="history">History</string>
+    <string name="about">About</string>
+    <string name="archive_month"> ARCHIVE MONTH </string>
+    <string name="category_name">Category</string>
+    <string name="max_value">Spent limit</string>
+    <string name="spent">spent</string>
+    <string name="limit">limit</string>
+    <string name="move_to_archive_question">Move current month to archive?</string>
+    <string name="app_version_long">Version 1.0</string>
+    <string name="app_publish_date">15/06/2017</string>
+    <string name="copyright">Copyright © 2017 SAbort</string>
+    <string name="github_link">www.github.com/sabort</string>
+    <string name="cat_name_empty_err">Category name is required</string>
+    <string name="max_value_empty_err">Max value is required</string>
+    <string name="archivization_done">Last month data was moved to archive.</string>
+    <string name="add_categories_first">Add categories first.</string>
+    <string name="licence_content">Licences</string>
+    <string name="apache_license">Copyright (c) 2017 SAbort \n\n
+  Licensed under the Apache License, Version 2.0 (the "License");
+  you may not use this file except in compliance with the License.
+  You may obtain a copy of the License at\n\n
+
+     http://www.apache.org/licenses/LICENSE-2.0\n\n
+
+  Unless required by applicable law or agreed to in writing, software
+  distributed under the License is distributed on an "AS IS" BASIS,
+  WITHOUT WARRANTIES OR CONDITIONS OF ANY KIND, either express or implied.
+  See the License for the specific language governing permissions and
+  limitations under the License.
+ </string>
+    <string name="licence">Licence</string>
+    <string name="add_new_category">Add new category</string>
+    <string name="left">left</string>
+    <string name="nothing_selected">Nothing added</string>
+    <string name="amount_added">Amount added</string>
+</resources>

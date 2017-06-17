@@ -1,0 +1,53 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!--
+  ~ Copyright (c) 2017 SAbort
+  ~
+  ~ Licensed under the Apache License, Version 2.0 (the "License");
+  ~ you may not use this file except in compliance with the License.
+  ~ You may obtain a copy of the License at
+  ~
+  ~    http://www.apache.org/licenses/LICENSE-2.0
+  ~
+  ~ Unless required by applicable law or agreed to in writing, software
+  ~ distributed under the License is distributed on an "AS IS" BASIS,
+  ~ WITHOUT WARRANTIES OR CONDITIONS OF ANY KIND, either express or implied.
+  ~ See the License for the specific language governing permissions and
+  ~ limitations under the License.
+  -->
+
+<resources>
+    <string name="app_name">Exs Monitor</string>
+    <string name="add">Dodaj</string>
+    <string name="archive">Zarchiwizuj</string>
+    <string name="cancel">Anuluj</string>
+    <string name="category_prompt">Wybierz kategorię</string>
+    <string name="drawer_open">Otwórz panel menu</string>
+    <string name="drawer_close">Zamknij panel menu</string>
+    <string name="save">Zapisz</string>
+    <string name="action_about">O programie</string>
+    <string name="title_activity_edit_categories">Edytuj kategorie</string>
+    <string name="title_activity_history">Historia</string>
+    <string name="title_activity_about">O programie</string>
+    <string name="to_remove">Usunąć</string>
+    <string name="categories">Kategorie</string>
+    <string name="history">Historia</string>
+    <string name="about">O programie</string>
+    <string name="archive_month"> ARCHIWIZUJ MIESIĄC </string>
+    <string name="category_name">Kategoria</string>
+    <string name="max_value">Limit wydatków</string>
+    <string name="spent">wydane</string>
+    <string name="limit">limit</string>
+    <string name="move_to_archive_question">Przesunąć bieżący miesiąc do archiwum?</string>
+    <string name="app_version_long">Wersja 1.0</string>
+    <string name="app_publish_date">15/06/2017</string>
+    <string name="cat_name_empty_err">Nazwa kategorii jest wymagana</string>
+    <string name="max_value_empty_err">Limit wydatków jest wymagany</string>
+    <string name="archivization_done">Transakcje z minionego miesiąca zostały przeniesione do archiwum.</string>
+    <string name="add_categories_first">Najpierw dodaj kategorię.</string>
+    <string name="licence_content">Licencje</string>
+    <string name="licence">Licencja</string>
+    <string name="add_new_category">Dodaj kategorię</string>
+    <string name="left">pozostało</string>
+    <string name="nothing_selected">Nic nie dodano</string>
+    <string name="amount_added">Kwota dodana</string>
+</resources>

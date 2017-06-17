@@ -1,0 +1,85 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!--
+  ~ Copyright (c) 2017 SAbort
+  ~
+  ~ Licensed under the Apache License, Version 2.0 (the "License");
+  ~ you may not use this file except in compliance with the License.
+  ~ You may obtain a copy of the License at
+  ~
+  ~    http://www.apache.org/licenses/LICENSE-2.0
+  ~
+  ~ Unless required by applicable law or agreed to in writing, software
+  ~ distributed under the License is distributed on an "AS IS" BASIS,
+  ~ WITHOUT WARRANTIES OR CONDITIONS OF ANY KIND, either express or implied.
+  ~ See the License for the specific language governing permissions and
+  ~ limitations under the License.
+  -->
+
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="fill_parent"
+    android:layout_height="fill_parent"
+    android:gravity="center_horizontal"
+    android:orientation="vertical">
+
+    <LinearLayout
+        android:id="@+id/linearLayout"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:gravity="center"
+        android:padding="15dp">
+
+        <TextView
+            android:id="@+id/categoryEditLabelText"
+            android:layout_width="150dp"
+            android:layout_height="wrap_content"
+            android:fontFamily="sans-serif-light"
+            android:textAppearance="@android:style/TextAppearance.Material.Widget.TextView"
+            android:textColor="@color/primary_text"
+            android:textSize="18sp" />
+
+        <TextView
+            android:id="@+id/categoryEditMaxValue"
+            android:layout_width="50dp"
+            android:layout_height="wrap_content"
+            android:fontFamily="sans-serif-light"
+            android:paddingRight="10dp"
+            android:textAlignment="textEnd"
+            android:textColor="@color/primary_text"
+            android:textSize="18sp"
+            tools:text="34" />
+
+        <Button
+            android:id="@+id/buttonEditCategory"
+            android:layout_width="25dp"
+            android:layout_height="25dp"
+            android:layout_below="@+id/linearLayout"
+            android:background="@drawable/ic_create_black_24dp"
+            android:backgroundTint="@color/secondary_text"/>
+
+        <TextView
+            android:id="@+id/separator"
+            android:layout_width="8dp"
+            android:layout_height="wrap_content"
+            android:fontFamily="sans-serif-light"
+            android:textAlignment="textEnd"
+            android:textColor="@color/secondary_text"
+            android:textSize="12sp"
+            android:textStyle="italic"/>
+
+        <Button
+            android:id="@+id/buttonDeleteCategory"
+            android:layout_width="25dp"
+            android:layout_height="25dp"
+            android:background="@drawable/ic_clear_black_24dp"
+            android:backgroundTint="@color/secondary_text"/>
+
+    </LinearLayout>
+
+    <View
+        android:layout_width="250dp"
+        android:layout_height="1px"
+        android:background="@android:color/darker_gray"
+        android:paddingTop="2dp"/>
+
+</LinearLayout>

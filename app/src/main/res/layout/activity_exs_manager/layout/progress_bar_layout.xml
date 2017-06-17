@@ -1,0 +1,154 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!--
+  ~ Copyright (c) 2017 SAbort
+  ~
+  ~ Licensed under the Apache License, Version 2.0 (the "License");
+  ~ you may not use this file except in compliance with the License.
+  ~ You may obtain a copy of the License at
+  ~
+  ~    http://www.apache.org/licenses/LICENSE-2.0
+  ~
+  ~ Unless required by applicable law or agreed to in writing, software
+  ~ distributed under the License is distributed on an "AS IS" BASIS,
+  ~ WITHOUT WARRANTIES OR CONDITIONS OF ANY KIND, either express or implied.
+  ~ See the License for the specific language governing permissions and
+  ~ limitations under the License.
+  -->
+
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="100dp"
+    android:gravity="center"
+    android:orientation="vertical"
+    android:paddingBottom="5dp">
+
+    <LinearLayout
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal"
+        android:paddingTop="5dp">
+
+        <TextView
+            android:id="@+id/categoryNameTv"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:width="103dp"
+            android:fontFamily="sans-serif-light"
+            android:inputType="textCapSentences"
+            android:textAppearance="@android:style/TextAppearance.Material.Widget.TextView"
+            android:textColor="@color/primary_text"
+            android:textSize="18sp" />
+        <TextView
+            android:id="@+id/categoryValueLabelTv"
+            android:layout_width="wrap_content"
+            android:layout_height="match_parent"
+            android:width="45dp"
+            android:fontFamily="sans-serif-light"
+            android:text="@string/spent"
+            android:textAlignment="textEnd"
+            android:textAppearance="@android:style/TextAppearance.Material.Widget.TextView"
+            android:textColor="@color/secondary_text"
+            android:textSize="12sp"
+            android:textStyle="italic" />
+
+        <TextView
+            android:id="@+id/categoryValueTv"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:width="50dp"
+            android:fontFamily="sans-serif-light"
+            android:textAlignment="textEnd"
+            android:textAllCaps="false"
+            android:textAppearance="@android:style/TextAppearance.Material.Widget.TextView"
+            android:textColor="@color/primary_text"
+            android:textSize="18sp"
+            android:textStyle="bold|italic" />
+
+        <TextView
+            android:id="@+id/categoryWhatLeftLabelTv"
+            android:layout_width="wrap_content"
+            android:layout_height="match_parent"
+            android:width="52dp"
+            android:fontFamily="sans-serif-light"
+            android:text="@string/left"
+            android:textAlignment="textEnd"
+            android:textAppearance="@android:style/TextAppearance.Material.Widget.TextView"
+            android:textColor="@color/secondary_text"
+            android:textSize="12sp"
+            android:textStyle="italic" />
+
+        <TextView
+            android:id="@+id/categoryWhatLeftTv"
+            android:layout_width="wrap_content"
+            android:layout_height="match_parent"
+            android:width="50dp"
+            android:fontFamily="sans-serif-light"
+            android:textAlignment="textEnd"
+            android:textAppearance="@android:style/TextAppearance.Material.Widget.TextView"
+            android:textColor="@color/colorMaterialGreen"
+            android:textSize="18sp"
+            android:textStyle="bold|italic" />
+
+    </LinearLayout>
+
+    <FrameLayout xmlns:android="http://schemas.android.com/apk/res/android"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:paddingTop="10dp">
+
+        <View
+            android:id="@+id/cateboryBarBackround"
+            android:layout_width="300dp"
+            android:layout_height="20dp"
+            android:background="@drawable/rectangle" />
+
+        <ImageView
+            android:id="@+id/categoryBarFill"
+            android:layout_width="100dp"
+            android:layout_height="20dp"
+            android:background="@drawable/rectangle_fill" />
+    </FrameLayout>
+
+    <LinearLayout
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal"
+        android:paddingTop="5dp">
+
+        <TextView
+            android:id="@+id/categoryLimitLabelTv"
+            android:layout_width="wrap_content"
+            android:layout_height="match_parent"
+            android:width="250dp"
+            android:fontFamily="sans-serif-light"
+            android:text="@string/limit"
+            android:textAlignment="textEnd"
+            android:textAppearance="@android:style/TextAppearance.Material.Widget.TextView"
+            android:textColor="@color/secondary_text"
+            android:textSize="12sp"
+            android:textStyle="italic" />
+
+        <TextView
+            android:id="@+id/categoryLimitTv"
+            android:layout_width="wrap_content"
+            android:layout_height="match_parent"
+            android:width="50dp"
+            android:fontFamily="sans-serif-light"
+            android:textAlignment="textEnd"
+            android:textAppearance="@android:style/TextAppearance.Material.Widget.TextView"
+            android:textColor="@color/primary_text"
+            android:textSize="18sp"
+            android:textStyle="bold|italic" />
+
+        </LinearLayout>
+
+    <LinearLayout
+        android:layout_width="300dp"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal"
+        android:paddingTop="10dp"
+        android:paddingBottom="10dp">
+    </LinearLayout>
+
+</LinearLayout>

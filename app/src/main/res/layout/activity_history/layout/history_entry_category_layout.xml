@@ -1,0 +1,114 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!--
+  ~ Copyright (c) 2017 SAbort
+  ~
+  ~ Licensed under the Apache License, Version 2.0 (the "License");
+  ~ you may not use this file except in compliance with the License.
+  ~ You may obtain a copy of the License at
+  ~
+  ~    http://www.apache.org/licenses/LICENSE-2.0
+  ~
+  ~ Unless required by applicable law or agreed to in writing, software
+  ~ distributed under the License is distributed on an "AS IS" BASIS,
+  ~ WITHOUT WARRANTIES OR CONDITIONS OF ANY KIND, either express or implied.
+  ~ See the License for the specific language governing permissions and
+  ~ limitations under the License.
+  -->
+
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:padding="6dip"
+    android:gravity="center_horizontal"
+    android:orientation="vertical">
+
+    <LinearLayout
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal">
+
+    <TextView
+        android:id="@+id/formattedArchiveEntryCategoryEmpty"
+        android:layout_width="150dp"
+        android:layout_height="match_parent"
+        android:gravity="bottom"
+        android:textAppearance="@android:style/TextAppearance.Material.Widget.TextView"
+        android:textColor="@color/primary_text"
+        android:textSize="18sp"
+        android:fontFamily="sans-serif-light"
+        tools:text="" />
+
+        <TextView
+            android:id="@+id/formattedArchiveEntryMaxValueLabel"
+            android:layout_width="50dp"
+            android:layout_height="25dp"
+            android:gravity="bottom"
+            android:textAllCaps="false"
+            android:textAppearance="@android:style/TextAppearance.Material.Widget.TextView"
+            android:textColor="@color/secondary_text"
+            android:textSize="12sp"
+            android:textStyle="italic"
+            tools:text="@string/limit" />
+
+        <TextView
+            android:id="@+id/formattedHistoryEntryValue"
+            android:layout_width="50dp"
+            android:layout_height="25dp"
+            android:fontFamily="sans-serif-light"
+            android:gravity="bottom"
+            android:textAppearance="@android:style/TextAppearance.Material.Widget.TextView"
+            android:textColor="@color/colorMaterialGreen"
+            android:textSize="18sp"
+            android:textStyle="italic"
+            tools:text="75" />
+
+</LinearLayout>
+
+    <LinearLayout
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal">
+
+        <TextView
+            android:id="@+id/formattedHistoryEntryCategory"
+            android:layout_width="150dp"
+            android:layout_height="match_parent"
+            android:gravity="bottom"
+            android:textAppearance="@android:style/TextAppearance.Material.Widget.TextView"
+            android:textColor="@color/primary_text"
+            android:textSize="18sp"
+            android:fontFamily="sans-serif-light"/>
+
+        <TextView
+            android:id="@+id/formattedArchiveEntryValueLabel"
+            android:layout_width="50dp"
+            android:layout_height="25dp"
+            android:fontFamily="sans-serif-light"
+            android:gravity="bottom"
+            android:textAllCaps="false"
+            android:textAppearance="@android:style/TextAppearance.Material.Widget.TextView"
+            android:textColor="@color/secondary_text"
+            android:textSize="12sp"
+            android:textStyle="italic"
+            tools:text="@string/spent" />
+
+        <TextView
+            android:id="@+id/formattedHistoryEntryMaxValue"
+            android:layout_width="50dp"
+            android:layout_height="25dp"
+            android:gravity="bottom"
+            android:textAppearance="@android:style/TextAppearance.Material.Widget.TextView"
+            android:textColor="@color/colorMaterialGreen"
+            android:textSize="18sp"
+            android:fontFamily="sans-serif-light"
+            android:textStyle="italic"
+            tools:text="90" />
+    </LinearLayout>
+
+    <View
+        android:layout_width="match_parent"
+        android:layout_height="1px"
+        android:background="@android:color/darker_gray" />
+
+</LinearLayout>
